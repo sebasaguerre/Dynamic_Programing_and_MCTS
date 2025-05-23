@@ -407,7 +407,7 @@ def play_games(n_games, mcst_iter, enemy= "random", display = False, trivial = F
 
 ### play game ###
 
-mcts_iter = 1000
+mcts_iter = int(input("Select opponent (MCTS) difficulty: "))
 n_games = int(input("Number of games to be played: "))
 display = True if (input("Display success prob. and board? (y,n) ").lower() == "y") else False
 trivial = True if (input("Use assignment (trivial) stating board? (y,n) ").lower() == "y") else False
